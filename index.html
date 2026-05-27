@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+
+        #card{
+            border: 5px solid black;
+            height: 600px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightgoldenrodyellow;
+            box-shadow: 5px 10px 8px #888888;
+        }
+
+        #pfp {
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 2px solid black;
+        }
+
+        #name{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+        }
+        #pfp{
+            background-image: url(dictator.webp);
+        }
+        #des{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card">
+        <h2 id="name">Alison Burgers</h2>
+        <div id="pfp"></div>
+        <p id="des">The Dictator</p>
+        <p>Specializes in...DICTATORSHIPS</p>
+        <button>Follow</button>
+    </div>
+</body>
+</html>
